@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Dependency_Injection</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ProgramV1.0.cs" />
+    <Compile Remove="ProgramV2.0.cs" />
+    <Compile Remove="ProgramV3.0.cs" />
+    <Compile Remove="ProgramV4.0.cs" />
+  </ItemGroup>
+
+</Project>
